@@ -4,7 +4,10 @@
 
     Rahul S Hoskeri (rhoskeri50@gmail.com) */
 /*Header */
-
+body
+{
+  background-color:#bfc6c9;
+}
 /*Css for small devices*/
 .jumbotron {
     padding-top: 20px;
