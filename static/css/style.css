@@ -3,13 +3,14 @@
 /* Personal Webpage Created using HTML, CSS & Bootstrap
 
     Rahul S Hoskeri (rhoskeri50@gmail.com) */
+
 body
 {
-  background-color: #bfc6c9;
+  background-color:#bfc6c9;
 }
 /*Header */
-
 /*Css for small devices*/
+@media (max-width: 992px) {
 .jumbotron {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -21,7 +22,7 @@ body
 
 .jumbotron p
 {
-	font-size: 60%;
+	font-size: .75rem;
 }
 
 .divider-custom {
@@ -41,9 +42,23 @@ body
   border-color: #2c3e50;
   margin: 0 .75rem 0;
 }
+.edu h4
+{
+font-size: 1rem;
+}
+.edu h5
+{
+  font-size: .85rem;
+}
+.edu p
+{
+    font-size: .75rem;
+}
+}
 
 /*Css header for large devices*/
-@media (min-width: 992px) {
+@media (min-width: 992px) 
+{
     .jumbotron {
       padding-top: 20px;
       padding-bottom: 20px;
@@ -74,7 +89,9 @@ body
       margin: 0 0.75rem 0;
     }
 }
+/*Header */
 
+/*Portfolio items */
 /*icon design*/
 .portfolio .portfolio-item {
   cursor: pointer;
@@ -113,6 +130,82 @@ body
   line-height: 2rem;
 }
 
+@media (max-width: 992px) {
+  /*Resarch part css*/
+  .res h4
+  {
+    font-size: 1rem;
+  }
+  .res h5
+  {
+    font-size: .85rem;
+  }
+  .res p
+  {
+    font-size: .75rem;
+  }
+
+  /*Project part css*/
+  .proj h4
+  {
+    font-size: 1rem;
+  }
+  .proj p 
+  {
+    font-size: .85rem;
+  }
+  .proj li
+  {
+    font-size: .75rem;
+  }
+/*work part css*/
+.work h4
+{
+  font-size: 1rem;
+}
+.work h5
+{
+  font-size: .85rem;
+}
+.work small
+{
+  font-size: .65rem;
+
+}
+.work p
+{
+  font-size: .75rem;
+}
+.work li
+{
+  font-size: .75rem;
+}
+/*skill &ceritification css*/
+.sc h4
+{
+  font-size: 1.35rem;
+}
+.sc p
+{
+  font-size: .85rem;
+}
+/*About css*/
+.abt p
+{
+  font-size: .85rem;
+}
+/*footer css*/
+.foot p
+{
+  font-size: .95rem;
+}
+.foot small
+{
+  font-size: .85rem;
+}
+
+}
+
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
@@ -121,7 +214,7 @@ body
 
 }
 
-
+/*Portfolio items */
 /*Footer styling*/
 .footer {
 	padding-top: 2px;
@@ -134,3 +227,4 @@ body
 {
 	border-radius: 5px;
 }
+/*Footer styling*/
