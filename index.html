@@ -18,7 +18,6 @@
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" href="./static/bootstrap/bootstrap5.min.css">
-<!-- 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
 
 		<script src="./static/bootstrap/bootstrap.min.js"></script>
 
@@ -148,21 +147,21 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Modal - Text-->
-									<div class="card mb-3">
-										<h4 class="card-header">University of California, Merced</h4>
-											<div class="card-body">
-												<h5 class="card-title">Master of Science - Electrical Engineering and Computer Science (2019-2021)</h5>
-												<p><b>Course Work :</b> <em>Digital Image Processing, Distributed Systems, Cloud Computing, Parallel Computing, Advance Algorithms, Parallel Computing, Advance Intelligence Systems.</em></p>
-											</div>
-									</div>
+				<div class="card mb-3 edu">
+					<h4 class="card-header"><img src="./static/images/ucm.png" class="rounded-circle educon" width="50" height="50"> University of California, Merced</h4>
+						<div class="card-body">
+							<h5 class="card-title">Master of Science - Electrical Engineering and Computer Science (2019-2021)</h5>
+							<p><b>Course Work :</b> <em>Digital Image Processing, Distributed Systems, Cloud Computing, Parallel Computing, Advance Algorithms, Parallel Computing, Advance Intelligence Systems.</em></p>
+						</div>
+				</div>
 
-									<div class="card">
-										<h4 class="card-header">Visvesvaraya Technological University</h4>
-											<div class="card-body">
-												<h5 class="card-title">Bachelor of Engineering - Computer Science and Engineering (2014-2018)</h5>
-												<p><b>Course Work :</b> <em>Algorithm Design &amp; Analysis, Operating Systems, Database Systems, Web Programming, Computer Architecture, Computer Networks.</em></p>
-											</div>
-									</div>
+				<div class="card edu">
+					<h4 class="card-header"><img src="./static/images/vtu.png" class="rounded-circle educon" width="50" height="50">Visvesvaraya Technological University</h4>
+						<div class="card-body">
+							<h5 class="card-title">Bachelor of Engineering - Computer Science and Engineering (2014-2018)</h5>
+							<p><b>Course Work :</b> <em>Algorithm Design &amp; Analysis, Operating Systems, Database Systems, Web Programming, Computer Architecture, Computer Networks.</em></p>
+						</div>
+				</div>
 
                                     <button class="btn mt-3" href="#!" data-bs-dismiss="modal" style="background-color:#e7e7e7; ">
                                         <i class="fas fa-times fa-fw"></i>
@@ -180,12 +179,12 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"></button></div>
-                    <div class="modal-body text-center pb-5">
+                    <div class="modal-body  pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Research</h2>
+                                    <h2 class="portfolio-modal-title text-center text-secondary text-uppercase mb-0">Research</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -193,17 +192,38 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                       <!-- Modal - Text-->
-                                      <div class="card mb-3">
-										<h4 class="card-header">Data Visualization of Weight Sensor and Event Detection of Aifi Store <a href="https://doi.org/10.5281/zenodo.4300738" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4300738.svg" alt="DOI"></a></h4>
+                                      <div class="card mb-3 res">
+										<h4 class="card-header text-center">Data Visualization of Weight Sensor and Event Detection of Aifi Store <a href="https://doi.org/10.5281/zenodo.4300738" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4300738.svg" alt="DOI"></a></h4>
 											<div class="card-body">
-												<h5 class="card-title">Open Source Data Organisation &amp; Scripting</h5>
+												<h5 class="card-title text-center">Open Source Data Organisation &amp; Scripting</h5>
 												<p><em>Worked on AIFI's weight sensor data from CPS IOT-2020 competition and implemented event detection and vizualisation of the same using python script.</em></p>
+                                                
 											</div>
+                                            <div class="container">
+                                                <div class="row text-center align-items-center">
+                                                    <div class="col-lg-6 col-sm-3">
+                                                        <figure class="figure">
+                                                        <img src="../static/images/plates.png" class="figure-img img-fluid rounded float-start border border-1 rounded" alt="..." style="width: 350px; height: 300px;">
+                                                        <figcaption class="figure-caption text-dark">AiFi Store Layout</figcaption>
+                                                        </figure>    
+                                                    </div>
+                                                    <div class="col-lg-6 col-sm-3">
+                                                         <figure class="figure">
+                                                        <img src="../static/images/1,3.png" class="figure-img img-fluid rounded float-start border border-1 rounded" alt="..." style="width: 650px; height: 200px;">
+                                                        <figcaption class="figure-caption text-dark">Weight Sensor Event Detection</figcaption>
+                                                        </figure>
+                                                        
+                                                    </div>
+                                                </div> 
+                                            </div>
 									</div>
+
+                                    <div class="text-center">
                                       <button class="btn mt-3" href="#!" data-bs-dismiss="modal" style="background-color:#e7e7e7; ">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +250,7 @@
                                     </div>
 
 									 <!-- Modal - Text-->
-                                    <div class="card mb-3">
+                                    <div class="card mb-3 proj">
 										<h4 class="card-header text-center">Content Based Image Retrieval System</h4>
 											<div class="card-body">
 												<p><b>Objective: </b> Build a query system to return the bird sound spectogram images similar to the query spectogram image.
@@ -244,7 +264,7 @@
 									</div>
 
                                      <!-- Modal - Text-->
-                                    <div class="card mb-3">
+                                    <div class="card mb-3 proj">
 										<h4 class="card-header text-center">Optimizing High Performance Computing Application Using Neural Network</h4>
 											<div class="card-body">
 												<p><b>Objective: </b> Train a neural network to parallelize and reduce the calculation time of Solid Oxide Fuel Cell simulation.
@@ -257,7 +277,7 @@
 									</div>
 
 									 <!-- Modal - Text-->
-                                    <div class="card mb-3">
+                                    <div class="card mb-3 proj">
 										<h4 class="card-header text-center">Hand Written Optical Character Recognition</h4>
 											<div class="card-body">
 												<p><b>Objective: </b> Recognize and translate between the dialects of Dravidian dialect using computer vision/image processing to restore and digitize historic scriptures.
@@ -271,7 +291,7 @@
 									</div>
 
 									 <!-- Modal - Text-->
-                                    <div class="card mb-3">
+                                    <div class="card mb-3 proj">
 										<h4 class="card-header text-center">Facility Location Problem</h4>
 											<div class="card-body">
 													<p><b>Objective: </b> The classical problem of operational research/approximation algorithms to minimise the distance between the facility and the places served by it.
@@ -284,7 +304,7 @@
 									</div>
 
 									 <!-- Modal - Text--> 
-                                    <div class="card mb-3">
+                                    <div class="card mb-3 proj">
 										<h4 class="card-header text-center">WhatsApp Chat Text Analysis and Word Cloud Script</h4>
 											<div class="card-body">
 													<p><b>Objective: </b> Perform text analysis to understand the kind of relationship they share and build a word cloud image to understand the same.
@@ -327,7 +347,7 @@
                                     </div>
 
                                      <!-- Modal - Text-->
-                                    <div class="card mb-3">
+                                    <div class="card mb-3 sc">
 										<h4 class="card-header">Skills</h4>
 											<div class="card-body">
 												<p><b>Programming Languages: </b><em>C/C++, Python, JavaScript.</em></p>
@@ -337,7 +357,7 @@
 									</div>
 
 									 <!-- Modal - Text-->
-                                    <div class="card">
+                                    <div class="card sc">
 										<h4 class="card-header">Certifications</h4>
 											<div class="card-body">
 												<ul class="list-group list-group-flush">
@@ -380,7 +400,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                      <!-- Modal - Text-->
-									<div class="card mb-3">
+									<div class="card mb-3 work">
 										<h4 class="card-header text-center">University of California, Merced.</h4>
 											<div class="card-body ">
 												<div class="list-group">
@@ -389,14 +409,14 @@
 
 														<small>Jan 2020 - May 2021</small>
 													</div>
-													<ol>
+													<ol class="mt-2 mb-1">
 														<li>CSE-022 Introduction to Programming</li>
 														<li>CSE-140 Computer Architecture</li>
 														<li>CSE-100 Algorithm Design and Analysis</li>
 														<li>CSE-111 Database Systems</li>
 														<li>Math-011- Calculus</li>
 													</ol>
-													<p><b>Responsibilities:</b></p>
+													<p class="mt-2 mb-1"><b>Responsibilities:</b></p>
 													<ul>
 														<li>Presentation on course concepts for discussion sections.</li>
 														<li>Instruction of 2 discussion sections/labs per week.</li>
@@ -411,7 +431,7 @@
 									</div>
                                     
 									 <!-- Modal - Text-->
-                                    <div class="card mb-3">
+                                    <div class="card mb-3 work">
 										<h4 class="card-header text-center">Wipro Technologies Ltd, Bangalore - India.</h4>
 											<div class="card-body">
 												<div class="list-group">
@@ -420,6 +440,7 @@
 
 														<small>Jun 2018 - Jan 2019</small>
 													</div>
+                                                    <p class="mt-2 mb-1"><b>Responsibilities:</b></p>
 													<ul>
 														<li>Data warehousing and analysis for the insurance company Marsh and Mclennan using SAP Business Objects to study business growth and report to help make business decisions</li>
 														<li>Implemented Python script to clean csv report file and convert to excel for better readability and reduced the manual effort that was used before.</li>
@@ -458,7 +479,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
 
-									<div class="card" >
+									<div class="card abt" >
 										<div class="card-body">
 											<p class="card-text text-justify">I'm currently a graduate student at the University of California, Merced advised by Prof. Mukesh Singhal.
 											I am inquisite towards conducting applied research and development in the field of Computer Science.</p>
@@ -492,12 +513,12 @@
 	                		<!-- <p class="loc_icon"><i class="fas fa-map-marker-alt fa-2x" style="margin-right: 2px; "></i>Merced, California</p> -->	
 	                	</div>
 	                    <!-- Footer About Text-->
-	                    <div class="col-lg-4 mb-1 mb-lg-1" >
+	                    <div class="col-lg-4 mb-1 mb-lg-1 foot" >
 
 	                        <p class="mb-1 text-dark">Let's have coffee while you use this code.</p>
 	                         <a href="https://www.buymeacoffee.com/rahulsh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt=" Buy Me A Coffee" style="height: 45px !important;width: 180px !important;" ></a>
 
-	                         <div class="copyright text-center text-white">
+	                         <div class="copyright text-center text-white foot">
 						       <div class="container text-dark">
 						        	<small>Copyright &copy; Rahul S Hoskeri 2021</small>
 						        </div>
