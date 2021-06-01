@@ -61,11 +61,11 @@
     }
      .divider-custom-line {
          width: 100%;
-         max-width: 7rem;
+         max-width: 9rem;
          height: 0.25rem;
-         background-color: white;
+         background-color: black;
          border-radius: 1rem;
-         border-color: white;
+         border-color: black;
          margin: 0 .75rem 0;
     }
      .edu h4 {
@@ -135,11 +135,11 @@
     }
      .divider-custom-line {
          width: 100%;
-         max-width: 7rem;
+         max-width: 10rem;
          height: 0.25rem;
-         background-color: white;
+         background-color: black;
          border-radius: 1rem;
-         border-color: white;
+         border-color: black;
          margin: 0 0.75rem 0;
     }
 }
