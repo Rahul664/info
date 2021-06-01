@@ -1,327 +1,257 @@
+ 
+/* Personal Webpage Created using HTML, CSS & Bootstrap */
+/*Rahul S Hoskeri (rhoskeri50@gmail.com) */
 
-
-/* Personal Webpage Created using HTML, CSS & Bootstrap
-
-    Rahul S Hoskeri (rhoskeri50@gmail.com) */
-
-body
-{
-  background: url('../images/background.jpg'); no-repeat transparent; 
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover !important;
-    /*display: flex;*/
+ body {
+     background: url('../images/background.jpg'), no-repeat transparent;
+     height: 100%;
+    /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover !important;
+    /*display: flex;
+    */
 }
-.background_animation
-{
- position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+ .background_animation {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     z-index: -1;
 }
-
 /*Header */
-
 /*Css for small devices*/
-@media (max-width: 992px) {
-body
-{
-  background: url('../images/background.jpg'); no-repeat transparent; 
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover !important;
-    /*display: flex;*/
+ @media (max-width: 992px) {
+     body {
+         background: url('../images/background.jpg'),no-repeat transparent;
+         height: 100%;
+        /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover !important;
+        /*display: flex;
+        */
+    }
+     .background_animation {
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         z-index: -1;
+    }
+     .jumbotron {
+         padding-top: 20px;
+         padding-bottom: 20px;
+         border-radius: 5px !important;
+    }
+     .jumbotron h1 {
+         font-size: 1.55rem;
+    }
+     .jumbotron p {
+         font-size: .75rem;
+    }
+     .divider-custom {
+         margin: 0rem 0 1rem;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+     .divider-custom-line {
+         width: 100%;
+         max-width: 7rem;
+         height: 0.25rem;
+         background-color: white;
+         border-radius: 1rem;
+         border-color: white;
+         margin: 0 .75rem 0;
+    }
+     .edu h4 {
+         font-size: 1rem;
+    }
+     .edu h5 {
+         font-size: .85rem;
+    }
+     .edu p {
+         font-size: .75rem;
+    }
 }
-.background_animation
-{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+ @media (max-width:281px) {
+     .jumbotron p {
+         font-size: .55rem;
+    }
+     .background_animation {
+         position: absolute;
+         display: flex;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         left: 0;
+         z-index: -10;
+    }
 }
-
-.jumbotron {
-    padding-top: 20px;
-    padding-bottom: 20px;
-     border-radius: 5px !important;
-
-  }
-.jumbotron h1
-{
-	font-size: 1.55rem;
-}
-
-.jumbotron p
-{
-	font-size: .75rem;
-}
-
-.divider-custom {
-  margin: 0rem 0 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.divider-custom-line {
-  width: 100%;
-  max-width: 7rem;
-  height: 0.25rem;
-  background-color: white;
-  border-radius: 1rem;
-  border-color: white;
-  margin: 0 .75rem 0;
-}
-.edu h4
-{
-font-size: 1rem;
-}
-.edu h5
-{
-  font-size: .85rem;
-}
-.edu p
-{
-    font-size: .75rem;
-}
-}
-
-@media (max-width:281px) 
-{
-    .jumbotron p
-{
-  font-size: .55rem;
-}
-.background_animation
-{
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -10;
-}
-
-}
-
 /*Css header for large devices*/
-@media (min-width: 992px) 
-{
-  body
-{
- background: url('../images/background.jpg'); no-repeat transparent; 
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover !important;
-    /*display: flex;*/
-}
-.background_animation
-{
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  left: 0;
-  right: 0;
-  z-index: -10;
-}
-
-    .jumbotron {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      border-radius: 5px !important;
+ @media (min-width: 992px) {
+     body {
+         background: url('../images/background.jpg'), no-repeat transparent;
+         height: 100%;
+        /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover !important;
+        /*display: flex;
+        */
     }
-    .jumbotron h1
-    {
-    	font-size: 3rem;
+     .background_animation {
+         position: absolute;
+         display: flex;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         left: 0;
+         left: 0;
+         right: 0;
+         z-index: -10;
     }
-    .jumbotron p
-    {
-    	font-size: 100%;
+     .jumbotron {
+         padding-top: 20px;
+         padding-bottom: 20px;
+         border-radius: 5px !important;
     }
-    .divider-custom {
-      margin: 0rem 0 1rem;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+     .jumbotron h1 {
+         font-size: 3rem;
     }
-
-    .divider-custom-line {
-      width: 100%;
-      max-width: 7rem;
-      height: 0.25rem;
-      background-color: white;
-      border-radius: 1rem;
-      border-color: white;
-      margin: 0 0.75rem 0;
+     .jumbotron p {
+         font-size: 100%;
+    }
+     .divider-custom {
+         margin: 0rem 0 1rem;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+     .divider-custom-line {
+         width: 100%;
+         max-width: 7rem;
+         height: 0.25rem;
+         background-color: white;
+         border-radius: 1rem;
+         border-color: white;
+         margin: 0 0.75rem 0;
     }
 }
 /*Header */
-
 /*Portfolio items */
 /*icon design*/
-.portfolio .portfolio-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
+ .portfolio .portfolio-item {
+     cursor: pointer;
+     position: relative;
+     display: block;
+     max-width: 25rem;
+     border-radius: 0.5rem;
+     overflow: hidden;
 }
-
-.portfolio .portfolio-item .portfolio-item-caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-color: #C0C0C0;
+ .portfolio .portfolio-item .portfolio-item-caption {
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: all 0.2s ease-in-out;
+     opacity: 0;
+     background-color: #C0C0C0;
 }
-
-.portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+ .portfolio .portfolio-item .portfolio-item-caption:hover {
+     opacity: 1;
 }
-
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+ .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+     font-size: 1.5rem;
 }
-
-.portfolio-modal .btn-close {
-  color: red;
-  font-size: 2rem;
-  padding: 1rem;
-  
+ .portfolio-modal .btn-close {
+     color: red;
+     font-size: 2rem;
+     padding: 1rem;
 }
-
-
-.portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem;
-
+ .portfolio-modal .portfolio-modal-title {
+     font-size: 2.25rem;
+     line-height: 2rem;
 }
-
-@media (max-width: 992px) {
-
-  /*Resarch part css*/
-  .res h4
-  {
-    font-size: 1rem;
-  }
-  .res h5
-  {
-    font-size: .85rem;
-  }
-  .res p
-  {
-    font-size: .75rem;
-  }
-
-  /*Project part css*/
-  .proj h4
-  {
-    font-size: 1rem;
-  }
-  .proj p 
-  {
-    font-size: .85rem;
-  }
-  .proj li
-  {
-    font-size: .75rem;
-  }
-/*work part css*/
-.work h4
-{
-  font-size: 1rem;
+ @media (max-width: 992px) {
+    /*Resarch part css*/
+     .res h4 {
+         font-size: 1rem;
+    }
+     .res h5 {
+         font-size: .85rem;
+    }
+     .res p {
+         font-size: .75rem;
+    }
+    /*Project part css*/
+     .proj h4 {
+         font-size: 1rem;
+    }
+     .proj p {
+         font-size: .85rem;
+    }
+     .proj li {
+         font-size: .75rem;
+    }
+    /*work part css*/
+     .work h4 {
+         font-size: 1rem;
+    }
+     .work h5 {
+         font-size: .85rem;
+    }
+     .work small {
+         font-size: .65rem;
+    }
+     .work p {
+         font-size: .75rem;
+    }
+     .work li {
+         font-size: .75rem;
+    }
+    /*skill &ceritification css*/
+     .sc h4 {
+         font-size: 1.35rem;
+    }
+     .sc p {
+         font-size: .85rem;
+    }
+    /*About css*/
+     .abt p {
+         font-size: .85rem;
+    }
+    /*footer css*/
+     .foot p {
+         font-size: .75rem;
+    }
+     .foot small {
+         font-size: .55rem;
+    }
 }
-.work h5
-{
-  font-size: .85rem;
+ @media (min-width: 992px) {
+     .portfolio-modal .portfolio-modal-title {
+         font-size: 3rem;
+         line-height: 2.5rem;
+    }
 }
-.work small
-{
-  font-size: .65rem;
-
-}
-.work p
-{
-  font-size: .75rem;
-}
-.work li
-{
-  font-size: .75rem;
-}
-/*skill &ceritification css*/
-.sc h4
-{
-  font-size: 1.35rem;
-}
-.sc p
-{
-  font-size: .85rem;
-}
-/*About css*/
-.abt p
-{
-  font-size: .85rem;
-}
-/*footer css*/
-.foot p
-{
-  font-size: .75rem;
-}
-.foot small
-{
-  font-size: .55rem;
-}
-
-}
-
-@media (min-width: 992px) {
-
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
-
-}
-
 /*Portfolio items */
 /*Footer styling*/
-.footer {
-	padding-top: 2px;
-	/*background-color: #ffff;*/
-  /*opacity:0.8; */
-	color: #fff;
-	border-radius: 5px;
+ .footer {
+     padding-top: 2px;
+    /*background-color: #ffff;
+    */
+    /*opacity:0.8;
+     */
+     color: #fff;
+     border-radius: 5px;
+}
+ .footer-div {
+     border-radius: 5px;
 }
 
-.footer-div
-{
-	border-radius: 5px;
-}
-
-/*Footer styling*/
-/*#portfolioModal1
-{
-  background-color: #C0C0C0 !important;
-/*  opacity: 0.9 !important;*/
-}*/
+ 
