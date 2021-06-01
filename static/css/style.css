@@ -6,14 +6,55 @@
 
 body
 {
-  background-color:#bfc6c9;
+  background: url('../images/background.jpg'); no-repeat transparent; 
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+    /*display: flex;*/
 }
+.background_animation
+{
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 /*Header */
+
 /*Css for small devices*/
 @media (max-width: 992px) {
+body
+{
+  background: url('../images/background.jpg'); no-repeat transparent; 
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+    /*display: flex;*/
+}
+.background_animation
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 .jumbotron {
     padding-top: 20px;
     padding-bottom: 20px;
+     border-radius: 5px !important;
+
   }
 .jumbotron h1
 {
@@ -37,9 +78,9 @@ body
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: white;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: white;
   margin: 0 .75rem 0;
 }
 .edu h4
@@ -56,12 +97,56 @@ font-size: 1rem;
 }
 }
 
+@media (max-width:281px) 
+{
+    .jumbotron p
+{
+  font-size: .55rem;
+}
+.background_animation
+{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+}
+
 /*Css header for large devices*/
 @media (min-width: 992px) 
 {
+  body
+{
+ background: url('../images/background.jpg'); no-repeat transparent; 
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+    /*display: flex;*/
+}
+.background_animation
+{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+}
+
     .jumbotron {
       padding-top: 20px;
       padding-bottom: 20px;
+      border-radius: 5px !important;
     }
     .jumbotron h1
     {
@@ -83,9 +168,9 @@ font-size: 1rem;
       width: 100%;
       max-width: 7rem;
       height: 0.25rem;
-      background-color: #2c3e50;
+      background-color: white;
       border-radius: 1rem;
-      border-color: #2c3e50;
+      border-color: white;
       margin: 0 0.75rem 0;
     }
 }
@@ -108,7 +193,7 @@ font-size: 1rem;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #e7e7e7;
+  background-color: #C0C0C0;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -123,14 +208,18 @@ font-size: 1rem;
   color: red;
   font-size: 2rem;
   padding: 1rem;
+  
 }
+
 
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
+
 }
 
 @media (max-width: 992px) {
+
   /*Resarch part css*/
   .res h4
   {
@@ -197,16 +286,17 @@ font-size: 1rem;
 /*footer css*/
 .foot p
 {
-  font-size: .95rem;
+  font-size: .75rem;
 }
 .foot small
 {
-  font-size: .85rem;
+  font-size: .55rem;
 }
 
 }
 
 @media (min-width: 992px) {
+
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
@@ -218,7 +308,8 @@ font-size: 1rem;
 /*Footer styling*/
 .footer {
 	padding-top: 2px;
-	background-color: #e7e7e7 ;
+	/*background-color: #ffff;*/
+  /*opacity:0.8; */
 	color: #fff;
 	border-radius: 5px;
 }
@@ -227,4 +318,10 @@ font-size: 1rem;
 {
 	border-radius: 5px;
 }
+
 /*Footer styling*/
+/*#portfolioModal1
+{
+  background-color: #C0C0C0 !important;
+/*  opacity: 0.9 !important;*/
+}*/
