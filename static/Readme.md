@@ -1,1 +1,1 @@
-Styling and assets folder
+Styling, javascript and assets folder
